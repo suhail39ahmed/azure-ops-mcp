@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "azure-ops-mcp": {
+      "command": "python",
+      "args": ["-m", "azure_ops_mcp.mcp_server"],
+      "cwd": "/absolute/path/to/azure-ops-mcp"
+    }
+  }
+}

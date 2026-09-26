@@ -8,7 +8,12 @@ license = { text = "MIT" }
 dependencies = []
 
 [project.scripts]
+azure-ops-mcp-server = "azure_ops_mcp.mcp_server:main"
 azure-ops-mcp = "azure_ops_mcp.cli:main"
+
+
+[project.optional-dependencies]
+mcp = ["mcp>=1.0,<2"]
 
 [build-system]
 requires = ["setuptools>=61"]
