@@ -1,0 +1,10 @@
+{
+  "name": "kv-app-prod",
+  "location": "eastus",
+  "sku": "standard",
+  "enableSoftDelete": true,
+  "enablePurgeProtection": true,
+  "networkAcls": {"defaultAction": "Deny"},
+  "secrets": ["db-conn", "api-key", "jwt-signing"],
+  "tags": {"env": "prod", "app": "demo"}
+}

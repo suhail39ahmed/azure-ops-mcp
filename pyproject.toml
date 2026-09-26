@@ -1,0 +1,18 @@
+[project]
+name = "azure-ops-mcp"
+version = "0.1.0"
+description = "Azure ops MCP-style tools: kv_compare, ado_diagnose, cost_stub (dry-run + audit)"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+azure-ops-mcp = "azure_ops_mcp.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]

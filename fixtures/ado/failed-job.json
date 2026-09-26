@@ -1,0 +1,8 @@
+{
+  "pipeline": "deploy-api",
+  "runId": 4421,
+  "result": "failed",
+  "failingTask": "AzureResourceManagerTemplateDeployment",
+  "message": "AADSTS7000222: The provided client secret keys are expired.",
+  "serviceConnection": "sc-prod-arm"
+}

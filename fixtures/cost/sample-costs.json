@@ -1,0 +1,10 @@
+{
+  "subscription": "sub-demo",
+  "currency": "USD",
+  "items": [
+    {"service": "Cognitive Services", "cost": 420.50},
+    {"service": "Storage", "cost": 88.10},
+    {"service": "Key Vault", "cost": 12.00},
+    {"service": "Azure Databricks", "cost": 910.25}
+  ]
+}
