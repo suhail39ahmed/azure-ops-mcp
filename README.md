@@ -3,6 +3,7 @@
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-blue.svg)
 ![Status](https://img.shields.io/badge/status-0.1.0%20MVP-green.svg)
+[![demo](https://img.shields.io/badge/demo-make%20demo-brightgreen.svg)](docs/ci/demo.yml)
 
 **Azure ops tools for agents: Key Vault compare, ADO diagnose, cost stub — dry-run default + append-only audit log.**
 
@@ -24,6 +25,8 @@ pip install -e ".[mcp]"
 Or with pipx (once published to PyPI): `pipx install azure-ops-mcp` — until then use editable install from this repo.
 
 ## 30-second demo
+
+![30-second demo](assets/demo-terminal.svg)
 
 ```bash
 python -m azure_ops_mcp --help

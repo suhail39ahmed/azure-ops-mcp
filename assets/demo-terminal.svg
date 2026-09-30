@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="250" viewBox="0 0 960 250">
+  <defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stop-color="#0f172a"/><stop offset="100%" stop-color="#020617"/></linearGradient></defs>
+  <rect width="960" height="250" rx="12" fill="url(#bg)"/>
+  <rect x="0" y="0" width="960" height="34" rx="12" fill="#1e293b"/><rect x="0" y="22" width="960" height="12" fill="#1e293b"/>
+  <circle cx="20" cy="16" r="5" fill="#f87171"/><circle cx="38" cy="16" r="5" fill="#fbbf24"/><circle cx="56" cy="16" r="5" fill="#4ade80"/>
+  <text x="480" y="20" text-anchor="middle" fill="#cbd5e1" font-family="ui-sans-serif, system-ui, sans-serif" font-size="12">azure-ops-mcp · offline fixtures · make demo</text>
+  <text x="18" y="52" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">$ python -m azure_ops_mcp kv-compare fixtures/vaults/dev-vault.json fixtures/vaults/prod-vault.json</text>
+  <text x="18" y="70" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="400">dry-run · audited → audit.log</text>
+  <text x="18" y="88" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">$ python -m azure_ops_mcp ado-diagnose fixtures/ado/failed-job.json</text>
+  <text x="18" y="106" fill="#94a3b8" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="400">dry-run · audited → audit.log</text>
+  <text x="18" y="124" fill="#7dd3fc" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="600">$ cat audit.log</text>
+  <text x="18" y="142" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="400">{&quot;ts&quot;: &quot;2026-09-30T12:11:37.337381+00:00&quot;, &quot;tool&quot;: &quot;kv_compare&quot;, &quot;dry_run&quot;: true, &quot;args&quot;: {&quot;left&quot;...</text>
+  <text x="18" y="160" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="400">{&quot;ts&quot;: &quot;2026-09-30T12:11:37.365209+00:00&quot;, &quot;tool&quot;: &quot;ado_diagnose&quot;, &quot;dry_run&quot;: true, &quot;args&quot;: {&quot;fix...</text>
+  <text x="18" y="178" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="400">{&quot;ts&quot;: &quot;2026-09-30T12:11:37.395210+00:00&quot;, &quot;tool&quot;: &quot;cost_stub&quot;, &quot;dry_run&quot;: true, &quot;args&quot;: {&quot;fixtur...</text>
+  <text x="18" y="196" fill="#86efac" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12.5" font-weight="400">✓ azure-ops-mcp demo OK — dry-run + audit.log</text>
+</svg>
